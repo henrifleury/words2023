@@ -1,0 +1,1 @@
+DOC_TAG = "hw-backend-summer-2023-5-vk-bot-words-admin"

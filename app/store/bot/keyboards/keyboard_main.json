@@ -1,0 +1,28 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Это типа слово"
+      },
+      "color": "default"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "НЕ, это НЕ слово"
+      },
+      "color": "default"
+    }],
+  [
+      {
+      "action": {
+        "type": "text",
+        "label": "Покинуть игру"
+      },
+      "color": "default"
+    }]
+  ]
+}

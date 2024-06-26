@@ -1,0 +1,22 @@
+RUS_KW = "поиграем123"
+LAT_KW = ""  # NotImplemented "play123"
+GAME_START_KW = [RUS_KW, LAT_KW]
+GOOD_RUSSIAN_CHARS = set("АБВГДЕЁЖЗИЙКЛМНОПРОСТУФХЦЧШЩЭЮЯ")
+BAD_LAST_RUSSIAN_CHARS = set("ЬЪЫ")
+ALL_RUSSIAN_CHARS = GOOD_RUSSIAN_CHARS | BAD_LAST_RUSSIAN_CHARS
+GOOD_ENGLISH_CHARS = set("ABCDEFGHIJKLMNOPKRATUVWXYZ")
+BAD_LAST_ENGLISH_CHARS = set("")
+LAYOUT_D = {RUS_KW: {"good": GOOD_RUSSIAN_CHARS, "bad": BAD_LAST_RUSSIAN_CHARS, "all": ALL_RUSSIAN_CHARS},
+            LAT_KW: {"good": GOOD_ENGLISH_CHARS, "bad": BAD_LAST_ENGLISH_CHARS, "all": GOOD_ENGLISH_CHARS},
+            }
+EXIT_PWD = "нихачу"
+STOP_PWD = "стопигра"
+
+MIN_WORD_LEN = 4
+MIN_TIMEOUT = 4
+WARN_TIMEOUT = 3
+
+MSG_PLAY = "[club218850857|@club218850857] Играть"
+MSG_NO_PLAY = "[club218850857|@club218850857] Наблюдать"
+MSG_VOTE_PRO = "[club218850857|@club218850857] Это типа слово"
+MSG_VOTE_CONTRA = "[club218850857|@club218850857] НЕ, это НЕ слово"

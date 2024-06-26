@@ -1,0 +1,21 @@
+user_token: OTY3NmVjYWYtZTJhNC00NzNhLTgwM2YtZGY3OTBkYTM3YWFhXzM0Nzc=
+
+session:
+  key: CaY5iCkYtN7DqXdiYK1BvmGrQuaSA4Tl4bEk9my0jc0=
+admin:
+  email: admin@admin.com
+  password: admin
+database:
+  host: 0.0.0.0
+  port: 5432
+  user: postgres
+  password: pass
+  database: kts1
+bot:
+  token:
+  group_id: 218850857
+  vkapi_ver: 5.131
+word_game:
+  init_time: 15
+  quest_time: 15
+  vote_time: 5

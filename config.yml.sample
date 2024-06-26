@@ -1,0 +1,20 @@
+admin:
+  email: #YOUR@EMAIL#
+  password: #YOUR GAME ADMIN PASSWORD#
+bot:
+  group_id: #YOUR GROUP ID AS 218850857#
+  token: #YOUR VK TOKEN#
+  vkapi_ver: 5.131
+database:
+  database: kts1
+  host: 0.0.0.0
+  password: #YOUR POSTGRESS DB PASSWORD#
+  port: 5432
+  user: postgres
+session:
+  key: #YOUR SESSION ID#
+user_token: #VK USER TOKEN#
+word_game:
+  init_time: 15
+  quest_time: 15
+  vote_time: 10

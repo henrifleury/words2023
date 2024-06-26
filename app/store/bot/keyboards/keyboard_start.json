@@ -1,0 +1,20 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "Играть"
+      },
+      "color": "default"
+    }],
+	[
+      {
+      "action": {
+        "type": "text",
+        "label": "Наблюдать"
+      },
+      "color": "default"
+    }]
+  ]
+}
